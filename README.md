@@ -28,6 +28,18 @@
 
 ---
 
+## Kết Quả & Phân Tích (Performance)
+
+Hệ thống đã được đánh giá định lượng bằng framework **Ragas**. Dưới đây là kết quả thực nghiệm:
+
+| Metrics / Components | Score | Evaluation | Ý nghĩa |
+| :--- | :---: | :---: | :--- |
+| **Context Precision** | **0.9198** | Good | Tỉ lệ thông tin liên quan được tìm thấy trong top các văn bản truy xuất là rất cao (91.9%). |
+| **Faithfulness** | **0.9000** | Excellent | Câu trả lời của AI bám sát dữ liệu gốc, hạn chế tối đa ảo giác (Hallucination). |
+| **Context Recall** | **0.8750** | Good | Hệ thống tìm lại được hầu hết các thông tin cần thiết để trả lời câu hỏi. |
+
+---
+
 ## 🌟 Tính Năng Nổi Bật
 
 - **Hyper-Fast Inference:** Sử dụng **Groq LPU** giúp giảm độ trễ phản hồi xuống mức mili-giây.
