@@ -34,7 +34,7 @@ Hệ thống đã được đánh giá định lượng bằng framework **Ragas
 
 | Metrics / Components | Score | Evaluation | Ý nghĩa |
 | :--- | :---: | :---: | :--- |
-| **Context Precision** | **0.9198** | Good | Tỉ lệ thông tin liên quan được tìm thấy trong top các văn bản truy xuất là rất cao (91.9%). |
+| **Context Precision** | **0.9198** | Excellent | Tỉ lệ thông tin liên quan được tìm thấy trong top các văn bản truy xuất là rất cao (91.9%). |
 | **Faithfulness** | **0.9000** | Excellent | Câu trả lời của AI bám sát dữ liệu gốc, hạn chế tối đa ảo giác (Hallucination). |
 | **Context Recall** | **0.8750** | Good | Hệ thống tìm lại được hầu hết các thông tin cần thiết để trả lời câu hỏi. |
 
