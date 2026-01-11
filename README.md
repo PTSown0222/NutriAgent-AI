@@ -22,7 +22,7 @@
 
 ## Demo giao diện chat (UI-Chat)
 <div align="center">
-  <img src="assets/Agent.png" alt="Agent NutriRAG UI" width="800" />
+  <img src="assets/Agent.jpeg" alt="Agent NutriRAG UI" width="800" />
   <p><i>Giao diện Chatbot với khả năng hiển thị quá trình suy luận (Chain-of-Thought)</i></p>
 </div>
 
@@ -116,20 +116,15 @@ pip install -r requirements.txt
 
 Dự án sử dụng nhiều mô hình AI khác nhau (Groq, LlamaParse,...). Bạn cần tạo file .env tại thư mục gốc và điền các API Key tương ứng:
 
-# Tạo file .env và điền các thông tin sau:
+### Tạo file .env và điền các thông tin sau:
 
-# --- LLM Providers ---
 OPENAI_API_KEY=sk-...
 GOOGLE_API_KEY=AIza...          
 GROQ_API_KEY=gsk_...            
 HUGGINGFACEHUB_API_TOKEN=hf_... 
-
-# --- Data Parsing & Vector DB ---
 LLAMA_CLOUD_API_KEY=llx-...    
 QDRANT_URL=http://localhost:6333
 QDRANT_API_KEY=                 
-
-# --- Monitoring (Optional) ---
 LANGCHAIN_TRACING_V2=true
 
 ## Hướng Dẫn Vận hành
