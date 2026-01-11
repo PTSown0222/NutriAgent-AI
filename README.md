@@ -117,7 +117,7 @@ pip install -r requirements.txt
 Dự án sử dụng nhiều mô hình AI khác nhau (Groq, LlamaParse,...). Bạn cần tạo file .env tại thư mục gốc và điền các API Key tương ứng:
 
 ### Tạo file .env và điền các thông tin sau:
-
+```text
 OPENAI_API_KEY=sk-...
 GOOGLE_API_KEY=AIza...          
 GROQ_API_KEY=gsk_...            
@@ -126,6 +126,7 @@ LLAMA_CLOUD_API_KEY=llx-...
 QDRANT_URL=http://localhost:6333
 QDRANT_API_KEY=                 
 LANGCHAIN_TRACING_V2=true
+```
 
 ## Hướng Dẫn Vận hành
 
